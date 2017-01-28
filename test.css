@@ -1,0 +1,16 @@
+.nav-bar{
+	height: 75px;
+	max-width: 1080px;
+	position: relative;
+	margin: 0 auto;
+}
+.navigation{
+    position: absolute;
+    top: 39%;
+    right: 0px;
+}
+.content-wrapper{
+	width: 100%;
+	background-color: gray;
+	position: relative;
+}

@@ -1,0 +1,153 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700,600,800);
+
+@font-face {
+    font-family: 'montserratbold';
+    src: url('fonts/montserrat-bold-webfont.eot');
+    src: url('fonts/montserrat-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/montserrat-bold-webfont.woff2') format('woff2'),
+         url('fonts/montserrat-bold-webfont.woff') format('woff'),
+         url('fonts/montserrat-bold-webfont.ttf') format('truetype'),
+         url('fonts/montserrat-bold-webfont.svg#montserratbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'montserratlight';
+    src: url('fonts/montserrat-light-webfont.eot');
+    src: url('fonts/montserrat-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/montserrat-light-webfont.woff2') format('woff2'),
+         url('fonts/montserrat-light-webfont.woff') format('woff'),
+         url('fonts/montserrat-light-webfont.ttf') format('truetype'),
+         url('fonts/montserrat-light-webfont.svg#montserratlight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'montserratregular';
+    src: url('fonts/montserrat-regular-webfont.eot');
+    src: url('fonts/montserrat-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/montserrat-regular-webfont.woff2') format('woff2'),
+         url('fonts/montserrat-regular-webfont.woff') format('woff'),
+         url('fonts/montserrat-regular-webfont.ttf') format('truetype'),
+         url('fonts/montserrat-regular-webfont.svg#montserratregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+h1,h2,h3{
+	font-family: 'montserratregular';
+}
+
+h1,h2{
+	margin: 0px;
+}
+
+a{
+	text-decoration: none;
+}
+
+a:hover{
+	text-decoration: underline;
+}
+
+.content-wrapper{
+	position: relative;
+	max-width: 1080px;
+	min-height: inherit;
+	padding: 0px 10px;
+	margin: auto;
+}
+
+/*---------------------------------------------------*/
+/* Navigation CSS                                    */
+/*---------------------------------------------------*/
+.header-wrapper .background-span{
+	position:relative; 
+	width: 100%; 
+	min-height: 50px; 
+	background: #ff471a; 
+	width: 100%; 
+	z-index: 1000000; 
+	box-shadow: 1px 1px #4d4d4d
+}
+
+.header-wrapper .title{
+	position: absolute; 
+	left: 100px; 
+	bottom: 15%; 
+	color: white !important;
+}
+.header-wrapper .navigation{
+	position: absolute; 
+	right: 10px; 
+	bottom: 23%;
+}
+
+.header-wrapper .navigation a{ 
+	font-size: .9em;
+	font-family: 'montserratregular';
+	margin: 0em .5em;
+	color: white !important;
+}
+
+/*---------------------------------------------------*/
+/* Carrousel and Search Bar                          */
+/*---------------------------------------------------*/
+
+.carrousel-wrapper .headline-wrapper{
+	position: absolute;
+	margin: 0 auto;
+	top: 40%;
+	width: 100%;
+}
+
+.carrousel-wrapper .headline{
+	width: 60%;
+	position: relative;
+	margin: 0 auto;
+}
+
+.carrousel-wrapper h1{
+	font-family: 'Open Sans', sans-serif;
+	text-shadow: 1px 1px #4d4d4d;
+	color: white;
+	text-align: center;
+	font-size: 3.5em; 
+	margin: auto;
+}
+
+.carrousel-wrapper .search-bar{
+	width: 550px;
+	position: relative;
+	margin: 20px auto;
+}
+
+.carrousel-wrapper .text-bar{
+	text-align: left !important; 
+	font-size: 1.5em;
+	width: 89%;
+	font-size: 1.8em;
+	padding: 3px 5px;
+	border: 1px solid #ff471a;
+
+}
+
+.carrousel-wrapper .submit-button{
+	position: absolute;
+	width: 9%;
+	height: 100%;
+	border:none;
+	right: 0;
+	color: white;
+	font-size: 2em;
+	background-color: #ff471a;
+	font-family: 'montserratbold';
+	text-shadow: .5px .5px #4d4d4d;
+}
+
+.carrousel-wrapper .submit-button:focus,
+.carrousel-wrapper .text-bar:focus{
+	outline: none
+}
